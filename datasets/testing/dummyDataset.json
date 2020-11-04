@@ -1,0 +1,32 @@
+[
+ {
+  "machineId": "1",
+  "computerPower": 30.24,
+  "downSpeed": 4.24,
+  "yLabels": "Label1"
+ },
+ {
+  "machineId": "2",
+  "computerPower": 33.24,
+  "downSpeed": 44.24,
+  "yLabels": "Label1"
+ },
+ {
+  "machineId": "3",
+  "computerPower": 33.24,
+  "downSpeed": 44.24,
+  "yLabels": "Label2"
+ },
+ {
+  "machineId": "3bb1b72aec1a44e1802ed42fd8b0e287",
+  "computerPower": 13223.142377722432,
+  "downSpeed": 1.56,
+  "yLabels": "Useless"
+ },
+ {
+  "machineId": "09d5d877da7c4c28a56b59d7e1efb0d1",
+  "computerPower": 332276.5364368132,
+  "downSpeed": 4.47,
+  "yLabels": "Useless"
+ }
+]
