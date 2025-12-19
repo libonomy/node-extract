@@ -1,23 +1,54 @@
+<br />
+<p align="center">
+  <h3 align="center">Libonomy AI Node Data Extraction</h3>
+
+Extracts data from blockchain nodes in real time for AI training, classification, and simulation pipelines.
+
+<b>Halt Status:</b> POC and Simulators were complete. In-progress for R&D work related to mainnet universal usage.
 
 
-This repo contains the implementation of the data extraction module of libonomy daemon.
-The implementation covers the specifications that enables the daemon to extract the data from the node and feed it into the classification agent.
->Note: The initial release covers the module release which is under heavy development and has not reached the beta release in this repository
+</p>
 
-> Warning: The current module will be submerged with the daemon release of libonomy fully node implementation on goLang.
+## Getting Started
 
-## Pre-requisites
-Ensure that `$GOPATH` is set correctly and that the `$GOPATH/bin` directory appears in `$PATH`.
-> OS X, Ubuntu , Windows Support included
-- [git](https://git-scm.com/)
-- [go lang v1.14+](https://golang.org/)
-- Docker. (Next Release)
+Follow the instructions below to run the project locally.
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- **GO**
+
+  Install GO from:
+
+  ```sh
+  https://go.dev/doc/install
+  ```
+
+  ⚠️ **Supported GO version:** `1.14.x`
 
 
-## Developers Community ?
-- Libonomy [discord community](https://libonomy.com/discord)
-#### Upcoming Release
-- We will be releasing the AI neural network agent for our mainnet daemon
-- Support of agent with libonomy Software for macOS,Linux and windows
----
+## Installation
 
+1. **Clone the repository**
+
+2. **Navigate to the project directory**
+
+3. **Install dependencies**
+
+```sh
+go mod tidy
+```
+
+## To run the server
+
+```sh
+go run main.go
+```
+
+This repo contains the implementation of the data extraction module of libonomy daemon. The implementation covers the specifications that enables the daemon to extract the data from the node and feed it into the classification agent.
+
+
+```
+Copyright © 2025 — Libonomy
+```
